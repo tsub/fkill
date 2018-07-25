@@ -2,7 +2,7 @@
 
 [![Slack Room][slack-badge]][slack-link]
 
-Kill processes by fzf
+Kill processes with fzf
 
 ## Install
 

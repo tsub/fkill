@@ -1,4 +1,4 @@
-function fkill -d "Kill processes by filtering tool"
+function fkill -d "Kill processes with fzf"
   eval "ps aux | grep $USER | fzf --header (ps aux | head -1) --query (commandline)" | read select
 
   if not test -z $select
